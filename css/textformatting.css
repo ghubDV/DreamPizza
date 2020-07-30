@@ -1,0 +1,303 @@
+.lato-title{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 200;
+	color:white;
+}
+
+.lato-footer{
+	font-family: 'Lato';
+	font-style: normal;
+	height:100%;
+	font-size: 1.6em;
+	color:white;
+}
+
+@media only screen and (max-width: 900px){
+	.lato-footer{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.lato-footer{
+		font-size: 0.4em;
+	}
+}
+
+.body-title{
+	font-family: 'Raleway';
+	font-weight: bold;
+	color: black;
+	font-size: 2em;
+}
+
+@media only screen and (max-width: 768px){
+	.body-title{
+		font-size: 1.2em;
+	}
+}
+
+.body-text{
+	font-family: 'Raleway';
+	font-style: normal;
+	color: black;
+	font-size: 1em;
+}
+
+.item-description{
+	font-family: 'Raleway';
+	font-style: normal;
+	float:left;
+	padding-left:5%;
+	color: black;
+	font-size: 2em;
+	margin:0;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+
+.item-description-m{
+	font-family: 'Lato';
+	font-style: normal;
+	padding: 0px 20px;
+	color: black;
+	font-size: 1.5em;
+	margin:0;
+	height:100%;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	align-items: center;
+}
+
+.item-price{
+	font-family: 'Lato';
+	float:right;
+	padding-right:5%;
+	font-style: normal;
+	color: black;
+	font-size:1em;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+
+.item-qty{
+	font-family: 'Lato';
+	float:right;
+	font-style: normal;
+	color: black;
+	font-size:1em;
+	margin-right:5%;
+	width:50px;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+
+.item-ico{
+	font-family: 'Raleway';
+	float:right;
+	padding-right:2%;
+	font-size:1em !important;
+	font-style: normal;
+	border:none;
+	background-color:transparent;
+	color: black;
+	height:100%;
+	display:flex;
+	align-items:center;
+	transition:0.5s color;
+}
+
+.item-ico:hover{
+	cursor: pointer;
+	color:#ff4c4c;
+	transition:0.5s color;
+}
+
+@media only screen and (max-width: 900px){
+.item-description{
+	font-size: 1em;
+}
+
+.item-description-m{
+	font-size: 0.8em;
+}
+
+.item-price{
+	font-size:0.9em;
+}
+
+.item-qty{
+	font-size:0.9em;
+}
+
+.item-ico{
+	font-size:0.9em !important;
+}
+}
+
+@media only screen and (max-width: 600px){
+.item-description{
+	font-size: 0.6em;
+}
+
+.item-description-m{
+	font-size: 0.6em;
+}
+
+.item-price{
+	font-size:0.6em;
+}
+
+.item-qty{
+	font-size:0.6em;
+}
+
+.item-ico{
+	font-size: 0.7em !important;
+}
+}
+
+.link-white:link {
+	text-decoration:none;
+	color:white;
+}
+
+.link-emptycart{
+	text-decoration:none;
+	color:black !important;
+	transition:0.5s color;
+}
+
+.link-emptycart:hover {
+	text-decoration:none;
+	color:#ff4c4c !important;
+	transition:0.5s color;
+}
+
+#moto{
+	opacity:0;
+	margin-left:-1%;
+	display:relative;
+	font-size:50%;
+	font-style:italic;
+	transition: opacity 2s, margin-left 2s;
+}
+
+@media only screen and (max-width: 768px){
+	.head{
+		font-size:150%;
+	}
+	#moto{
+		display:none;
+	}
+}
+
+h2.head:hover > .logo {
+	transform:rotate(360deg);
+	transition:2s transform;
+}
+
+h2.head:hover > #moto {
+	opacity:1;
+	margin-left:1%;
+	transition: opacity 2s, margin-left 2s;
+}
+
+div.footer:hover .logo-footer{
+	transform:rotate(360deg);
+	filter: grayscale(0%);
+	transition: transform 2s, filter 2s;
+}
+
+.link-nav{
+	text-decoration: none;
+	color: #949494;
+	transition: 0.5s color;
+}
+
+.link-nav:hover{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s color;
+}
+
+.link-log{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s color;
+}
+
+.link-log:hover{
+	text-decoration: none;
+	color: #ff4c4c;
+	transition: 0.5s color;
+}
+
+.link-mail{
+	color:#ff4c4c;
+	text-decoration: none;
+}
+
+.link-mail:hover{
+	color:#ff4c4c;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.dropdown-item{
+	transition: color .2s !important;
+}
+
+.dropdown-item:hover{
+	background-color:white !important;
+	color: #ff4c4c !important;
+	transition: color .2s !important;
+}
+
+.dropdown-item.disabled{
+	color:#6c757d !important;
+}
+
+.dropdown-item:disabled:hover{
+	background-color:white !important;
+	color:#6c757d !important;
+}
+
+.show{
+	transition: color .5s;
+}
+
+.show:hover{
+	cursor:pointer;
+	color:#ff4c4c;
+	transition: color .5s;
+}
+
+.less{
+	transition: color .5s;
+}
+
+.less:hover{
+	cursor:pointer;
+	color:#ff4c4c;
+	transition: color .5s;
+}
+
+@media only screen and (max-width: 768px){
+	h6{
+		font-size:0.7rem !important;
+	}
+}
+
+::selection{
+	color:#ff4c4c;
+}
+
+::-moz-selection{
+	color:#ff4c4c;
+}
