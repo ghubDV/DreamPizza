@@ -1,5 +1,5 @@
 This represents a Pizza ordering app that brings a new ordering technique through Twitter.
-To make the application work correctly on your machine, please read the instructions below (they can also be found in the "README_IMPORTANT!!!.txt" file inside the root folder):
+To make the application work correctly on your machine, please read the instructions below:
 
 !!!You'll need a web server solution stack to run this website... XAMPP or WAMP will do!!!
 
